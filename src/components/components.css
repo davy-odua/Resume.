@@ -87,3 +87,14 @@
     top: 15%;
 }
 
+
+@media screen and (max-width: 770px){
+    .skills-sides{
+        display: flex;
+        flex-direction: column;
+    }
+    .right, .left{
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+}
