@@ -1,21 +1,21 @@
 import "./components.css"
 
-const Skills = () => {
+const Skills = ({skillTitle, leftTech, leftPercent, rightTech, rightPercent }) => {
   return (
     <>
     <div className="skills">
-        <h3>Frontend</h3>
+        <h3>{skillTitle}</h3>
         <div className="skills-sides">
             <div className="left">
-                <p>React</p>
-                <h5 className="percentage">85%</h5>
+                <p>{leftTech}</p>
+                <h5 className="percentage">{leftPercent}</h5>
                 <div className="white">
                     <div className="black"></div>
                 </div>
             </div>
             <div className="right">
-                <p>Typescript</p>
-                <h5 className="percentage">85%</h5>
+                <p>{rightTech}</p>
+                <h5 className="percentage">{rightPercent}</h5>
                 <div className="white">
                     <div className="black"></div>
                 </div>            
