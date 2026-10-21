@@ -48,3 +48,14 @@
     background: #000;
     color: #fff;
 }
+
+/* Skills */
+.skills{
+    margin-top: 1rem;
+    width: 70%;
+}
+.skills-sides{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
