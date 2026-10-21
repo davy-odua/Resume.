@@ -17,3 +17,34 @@
     margin: 0 2rem;
 }
 
+/* Home*/
+.home{
+    margin-top: 4rem;
+}
+.home-gap{
+    margin-bottom: 1.5rem;
+}
+.home a{
+    color: #646363;
+}
+.home-btns{
+    margin: 1.5rem 0;
+}
+.home-btns button{
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    border: none;
+    background: #e5e3e3;
+    transition: 0.5s;
+}
+.home-btns button:hover{
+    transform: translateY(-12%);
+}
+#black-btn{
+    background: #000;
+    color: #fff;
+}
