@@ -15,6 +15,7 @@ const Experience = () => {
                 <li>Reduced application load time by 60% through optimization</li>
                 <li>Mentored a team of 5 junior developers</li>
             </ul>
+            <div className="experience-time"><h3>2022 - Present</h3></div>
         </div>
     </div>
     </>
