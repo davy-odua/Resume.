@@ -86,8 +86,6 @@
     right: 11%;
     top: 15%;
 }
-
-
 @media screen and (max-width: 770px){
     .skills-sides{
         display: flex;
