@@ -3,7 +3,7 @@ const Experience = () => {
   return (
     <>
     <div className="experience gap">
-        <p>Experience</p>
+        <h1>Experience</h1>
         <div className="role">
             <h2>Senior Full Stack Developer</h2>
             <p>

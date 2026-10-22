@@ -99,3 +99,21 @@
 
 
 /* Experience */
+.experience{
+    padding-top: 0.2rem;
+}
+
+.experience h1{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.experience .role{
+    margin: 2rem 0;
+    border: 2px solid black;
+}
+
+.experience ul{
+    margin-left: 1rem;
+}
