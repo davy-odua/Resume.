@@ -17,14 +17,17 @@
 .brief-case{
     position: absolute;
     top: 4.5%;
-    left: -13px;
+    left: -14px;
     background: #e9e8e8;
     width: 25px;
     height: 25px;
+    border-radius: 16px;
+    border: 1px solid black;
+    padding: 4px;
 }
 .middle-case{
     top: 39%;
 }
 .bottom-case{
-    top: 74%;
+    top: 73%;
 }
