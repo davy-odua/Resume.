@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
+import { BiSolidBriefcaseAlt } from "react-icons/bi";
 
 function App() {
 
@@ -21,9 +22,12 @@ function App() {
       <div className="experience-gap gap">
         <div className="expe-title"><h1>Experience</h1></div>
         <div className="experience-line">
+          <BiSolidBriefcaseAlt className="brief-case" />
           <Experience />
+          <BiSolidBriefcaseAlt className="middle-case brief-case" />
           <Experience />
-          <Experience />
+          <BiSolidBriefcaseAlt className="bottom-case brief-case" />
+          <Experience />    
         </div>
       </div>
     </div>

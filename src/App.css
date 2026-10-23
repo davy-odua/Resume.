@@ -12,4 +12,19 @@
 }
 .experience-line{
     border-left: 2px solid black;
+    position: relative;
+}
+.brief-case{
+    position: absolute;
+    top: 4.5%;
+    left: -13px;
+    background: #e9e8e8;
+    width: 25px;
+    height: 25px;
+}
+.middle-case{
+    top: 39%;
+}
+.bottom-case{
+    top: 74%;
 }
