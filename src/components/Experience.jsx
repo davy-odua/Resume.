@@ -1,9 +1,8 @@
 
-const Experience = () => {
+const Experience = ({title}) => {
   return (
     <>
-    <div className="experience ">
-            <h1>Experience</h1>
+    <div className="experience">
         <div className="role">
             <h2>Senior Full Stack Developer</h2>
             <p>

@@ -1,3 +1,15 @@
 .experience-section{
     background: #e9e8e8;
 }
+.experience-gap{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.experience-gap h1{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 200;
+}
+.experience-line{
+    border-left: 2px solid black;
+}

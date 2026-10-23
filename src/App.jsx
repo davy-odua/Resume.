@@ -18,10 +18,13 @@ function App() {
       <Skills skillTitle="Design" leftTech="Figma" leftPercent="85%" rightTech="UI/UX Design" rightPercent="70%"  />
     </div>
     <div className="experience-section">
-      <div className="gap">
-        <Experience />
-        <Experience />
-        <Experience />
+      <div className="experience-gap gap">
+        <div className="expe-title"><h1>Experience</h1></div>
+        <div className="experience-line">
+          <Experience />
+          <Experience />
+          <Experience />
+        </div>
       </div>
     </div>
     </>
