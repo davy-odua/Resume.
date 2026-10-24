@@ -31,3 +31,18 @@
 .bottom-case{
     top: 73%;
 }
+
+/* Featured projects */
+.featured-projects{
+    margin: 4rem 3%;
+}
+.featured-projects h1{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 200;    
+}
+.projects-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

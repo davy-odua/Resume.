@@ -4,6 +4,8 @@ import Home from './components/Home.jsx'
 import Skills from './components/Skills.jsx'
 import Experience from './components/Experience.jsx'
 import { BiSolidBriefcaseAlt } from "react-icons/bi";
+import Projects from './components/Projects.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
@@ -31,6 +33,16 @@ function App() {
         </div>
       </div>
     </div>
+    <div className="featured-projects">
+      <div className="featured-title"><h1>Featured Projects</h1></div>
+      <div className="projects-row">
+        <Projects projectTitle="E-Commerce Platform" description="Full-featured online shopping platform with real-time inventory management and payment processing" projectTechnology1="React" projectTechnology2="Node.js" projectTechnology3="PostgreSQL" projectTechnology4="Stripe"  />
+        <Projects projectTitle="Project Management Tool" description="Collaborative project management application with real-time updates and team communication features" projectTechnology1="React" projectTechnology2="TypeScript" projectTechnology3="Firebase" projectTechnology4="Material-UI" />
+        <Projects projectTitle="Analytics Dashboard" description="Data visualization dashboard for tracking business metrics and generating insights" projectTechnology1="React" projectTechnology2="D3.js" projectTechnology3="Python" projectTechnology4="FastAPI" />
+      </div>
+    </div>
+    {/* Footer section */}
+    <Footer />
     </>
   )
 }
