@@ -223,11 +223,12 @@
     padding-left: 0.7rem;
     border-radius: 10px;
 }
-.footer-col input{
-    
+.footer-col textarea{
+    height: 10rem;
 }
 .footer-col button{
     width: 100%;
     background-color: #000;
     color: #fff;
+    border-radius: 10px;
 }
