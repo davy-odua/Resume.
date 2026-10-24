@@ -27,6 +27,7 @@ const Footer = () => {
             </div>            
         </div>
     </div>
+    <div className="footer-end"><h5>© 2026 David Oduor. All rights reserved.</h5></div>
     </>
   )
 }
