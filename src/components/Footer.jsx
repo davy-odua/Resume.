@@ -1,6 +1,7 @@
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
+import { IoPaperPlaneOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
                     <input type="text" placeholder="Your Name" />
                     <input type="text" placeholder="Your Email" />
                     <textarea name="" type="text" placeholder="Your Message" ></textarea>      
-                    <button><p>Send Message</p></button>          
+                    <button><p><IoPaperPlaneOutline className="contact-message" />Send Message</p></button>          
                 </form>
             </div>            
         </div>
