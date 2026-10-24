@@ -1,4 +1,6 @@
 import laptop from "../assets/laptop-2.jpg";
+import { IoIosCheckboxOutline } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = ({projectTitle, description, projectTechnology1, projectTechnology2, projectTechnology3, projectTechnology4 }) => {
   return (
@@ -14,8 +16,8 @@ const Projects = ({projectTitle, description, projectTechnology1, projectTechnol
             <p>{projectTechnology4}</p>
         </div>
         <div className="project-code">
-            <p>Live Demo</p>
-            <p>Code</p>
+            <p><IoIosCheckboxOutline /> Live Demo</p>
+            <p><FaGithub /> Code</p>
         </div>
     </div>
     </>
