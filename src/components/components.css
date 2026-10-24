@@ -184,6 +184,7 @@
 .footer{
     padding: 2rem 0;
     background: #ebeaea;
+    border-bottom: 2px solid black;
 }
 .footer-row{
     display: flex;
@@ -191,7 +192,6 @@
     justify-content: space-around;
 }
 .footer-col{
-    border: 2px solid black;
     flex-basis: 40%;
     height: 20rem;
 }
@@ -222,6 +222,7 @@
     padding: 0.5rem 0;
     padding-left: 0.7rem;
     border-radius: 10px;
+    border: none;
 }
 .footer-col textarea{
     height: 10rem;
@@ -232,6 +233,10 @@
     color: #fff;
     border-radius: 10px;
     padding: 0.4rem 0;
+    transition: 0.5s;
+}
+.footer-col button:hover{
+    opacity: 0.85;
 }
 .footer-col button p{
     display: flex;
