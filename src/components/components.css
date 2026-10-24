@@ -219,6 +219,8 @@
 .footer-col input, .footer-col textarea{
     width: 100%;
     margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    padding-left: 0.7rem;
 }
 .footer-col input{
     
