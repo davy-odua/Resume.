@@ -4,7 +4,7 @@ import { MdLocationOn } from "react-icons/md";
 import { IoPaperPlaneOutline } from "react-icons/io5";
 
 const Footer = () => {
-  return (
+    return (
     <>
     <div className="footer">
         <div className="footer-row gap">
@@ -29,7 +29,7 @@ const Footer = () => {
     </div>
     <div className="footer-end"><h5>© 2026 David Oduor. All rights reserved.</h5></div>
     </>
-  )
+    )
 }
 
 export default Footer;
