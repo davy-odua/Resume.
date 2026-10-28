@@ -22,6 +22,7 @@ const Skills = ({skillTitle, leftTech, leftPercent, rightTech, rightPercent }) =
             </div>            
         </div>
     </div>
+    
     </>
   )
 }
