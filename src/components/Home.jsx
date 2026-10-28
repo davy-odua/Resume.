@@ -22,6 +22,7 @@ const Home = () => {
         <button> <FaLinkedin /> LinkedIn</button>
       </div>
     </div>
+    
     </>
   )
 }
