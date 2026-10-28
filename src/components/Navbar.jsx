@@ -15,6 +15,7 @@ const Navbar = () => {
             <li><a>Contact</a></li>
         </ul>
     </div>
+    
     </>
   )
 }
