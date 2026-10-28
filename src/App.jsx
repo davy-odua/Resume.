@@ -43,7 +43,6 @@ function App() {
     </div>
     {/* Footer section */}
     <Footer />
-    
     </>
   )
 }
