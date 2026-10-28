@@ -20,6 +20,7 @@ const Projects = ({projectTitle, description, projectTechnology1, projectTechnol
             <p><FaGithub /> Code</p>
         </div>
     </div>
+    
     </>
   )
 }
